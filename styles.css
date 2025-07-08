@@ -1357,22 +1357,20 @@ path Attributes Style {
     align-items: center;
     font-size: 16px;
     color: white;
+    flex: 1;
+    padding-bottom: 96px;
 }
 
 .footer__logo {
-    display: flex
-;
+    display: flex;
     align-items: center;
-}
-
-.footer__logo {
-    height: 32px;
-    width: 32px;
-    padding-right: 16px;
+    height: 48px;
+    width: 48px;
+    padding-right: 16px
 }
 
 .footer__logo--text {
-    font-size: 20px;
+    font-size: 24px;
     color: #f7fafc;
     font-weight: 900;
     margin-left: 8px;
@@ -1402,11 +1400,17 @@ path Attributes Style {
     width: 16px;
 }
 
+.footer__socials {
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
 
 
 
 
-@@media (max-width: 1280x) {
+
+@media (max-width: 1280x) {
     .row.footer__row {
         flex-direction: column;
         justify-content: center;
@@ -1414,7 +1418,7 @@ path Attributes Style {
     }
 }
 
-@@media (max-width: 1280x) {
+@media (max-width: 1280x) {
     .footer__columns {
         flex-direction: column;
         justify-content: center;
@@ -1422,7 +1426,14 @@ path Attributes Style {
     }
 }
 
-   
+
+@media (max-width: 1280x) {
+    .footer__bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+}
 
 
 
