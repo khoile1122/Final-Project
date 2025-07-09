@@ -1567,14 +1567,19 @@ path Attributes Style {
 
 .footer__logo {
     display: flex;
-    align-items: center;
-    height: 48px;
-    width: 48px;
+    align-items: center;   
     padding-right: 16px;
 }
 
+.footer__logo--img {
+    height: 48px;
+    width: 48px;
+}
+
+
+
 .footer__logo--text {
-    font-size: 24px;
+    font-size: 20px;
     color: #f7fafc;
     font-weight: 900;
     margin-left: 8px;
@@ -1584,6 +1589,7 @@ path Attributes Style {
 .footer__copyright {
     color: #cbd5e0;
     font-weight: 500;
+    font-size: 20px;
 }
 
 .footer__social--link {
@@ -1600,8 +1606,8 @@ path Attributes Style {
 }
 
 .footer__social--link svg {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
 }
 
 .footer__socials {
